@@ -1,3 +1,5 @@
+import {iFrameResize} from 'iframe-resizer';
+
 (function(ngIframeResizer) {
     'use strict';
 
