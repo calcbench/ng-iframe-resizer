@@ -1,4 +1,4 @@
-import {iFrameResize} from 'iframe-resizer';
+import {iFrameResizer} from 'iframe-resizer';
 
 (function(ngIframeResizer) {
     'use strict';
@@ -9,7 +9,7 @@ import {iFrameResize} from 'iframe-resizer';
             return {
                 restrict: 'A',
                 link: function (scope, element) {
-                    iFrameResize({}, element[0]);
+                    iFrameResizer({}, element[0]);
                 }
             };
         });
