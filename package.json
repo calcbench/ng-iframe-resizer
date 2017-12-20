@@ -1,7 +1,10 @@
 {
   "name": "ng-iframe-resizer",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "angular": "^1.3.0",
+    "iframe-resizer": "~2.8.0"
+  },
   "devDependencies": {
     "chalk": "~1.0.0",
     "concat-stream": "~1.5.0",
@@ -19,12 +22,25 @@
     "merge-stream": "~0.1.0",
     "require-dir": "~0.3.0",
     "wiredep": "~2.2.0",
-    "wrench": "~1.5.0"
+    "wrench": "~1.5.0",
+    "angular-mocks": "^1.3.0"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
     "test": "gulp test"
-  }
+  },
+  "description": "This is a basic directive that wraps [iFrame Resizer](https://github.com/davidjbradshaw/iframe-resizer)\r to be usable in Angular projects.  npm packaging by andrewlkittredge@gmail.com",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alfaproject/ng-iframe-resizer.git"
+  },
+  "author": "mail@joaodias.eu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfaproject/ng-iframe-resizer/issues"
+  },
+  "homepage": "https://github.com/alfaproject/ng-iframe-resizer#readme"
 }
